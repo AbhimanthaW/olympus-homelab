@@ -30,6 +30,7 @@ The two servers boot independently, have their own compute and storage, and are 
 - Controlled reboots and limited post-power-outage recovery checks.
 - Short SMART storage self-tests, manual selected-file off-node backups and isolated file-restore comparisons.
 - A tiny synthetic Python/Athena calculation on HERMES with its result retrieved to the MacBook.
+
 ## The story I'm documenting
 
 The forthcoming article will cover the original design tradeoffs, installing Debian without a conventional USB installer, bootstrapping the network, troubleshooting firmware and DNS, post-outage validation, backups and what the process taught me.
